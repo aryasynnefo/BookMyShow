@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+<!-- nav_start -->
+
+<nav class="navbar navbar-expand-lg bg-light nav-bar-body">
+    <div class="container-fluid nav-bar">
+      <a class="navbar-brand nav-link" href="../index.html">book<img src="https://asset.brandfetch.io/id4J58sqa_/idcHqihl5c.svg?updated=1674733848562" class="icon" alt="">show</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex" role="search">
+          <input class="form-control me-5 ms-2 s-bar" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <div class="nav-links ms-auto">
+          <a class="navbar-brand nav-register" href="../register/register.html">Register</a>
+          <a class="navbar-brand nav-register" href="../index.html">Home</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- nav-end -->
+
+<div class="s-box">
+  
+  <div class="container_SignUp">
+    <!-- Sign In - Hero Image -->
+       <div class="heroSignInBackground">
+           <div class="heroSignInBackgroundOverlay">
+               <div class="containerHeroSignIn">
+                   <div class="signInContent">
+                       <h1>Hello friend, welcome!</h1>
+                       <hr>
+                       <p>Login your details to start<br>your journey.</p>
+                   </div> 
+                   <div class="heroSignInButton">   
+                       <button class="buttonHeroSignIn" onclick="signIn()">SIGN IN</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- Sign Up - Form --> 
+       <div class="containerSignUp">
+           <div class="socialIcons">
+               <h1>Create Account</h1>
+           </div>
+           <div class="containerFormSignUp">
+               <form action="#">
+                   <input type="text" id="user-name" placeholder="username" />
+                   <input type="password" id="password" placeholder="Password" />
+               </form>
+           </div>
+           <div class="formSignUpButton">
+               <button class="buttonFormSignUp" id="s-btn">SIGN UP</button>
+           </div>
+      </div>
+   </div>
+   <div class="container_SignIn" id="container_SignIn">
+       <!-- Sign In - Form -->
+       <div class="containerSignIn">
+           <div class="socialIcons">
+               <h1>Sign In</h1>
+           </div>
+           <div class="containerFormSignIn">
+               <form action="#">
+                   <input type="text" id="username" placeholder="username" />
+                   <input type="password" id="pwd" placeholder="Password" />
+                   <a href="#">forgot your password?</a>
+               </form>
+           </div>
+           <div class="formSignInButton">
+               <button id="l-btn" class="buttonFormSignIn">SIGN IN</button>
+           </div>
+       </div>
+       <!-- Sign Up - Hero Image -->
+       <div class="heroSignUpBackground" id="containerHeroSignUp">
+           <div class="heroSignUpBackgroundOverlay">
+               <div class="containerHeroSignUp">
+                   <div class="signUpContent">
+                       <h1>Not a member?</h1>
+                       <hr>
+                       <p>Enter your personal details<br>and start your journey.</p>
+                   </div> 
+                   <div class="heroSignUpButton" onclick="signUp()">   
+                       <button class="buttonHeroSignUp">SIGN UP</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>    
+  
+</div>
+       
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./account.js"></script>
+  </body>
+</html>

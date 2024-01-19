@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Update</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+
+    <!-- nav_start -->
+
+    <nav class="navbar navbar-expand-lg bg-light nav-bar-body">
+        <div class="container-fluid nav-bar">
+            <a class="navbar-brand nav-link" href="../index.html">book<img src="https://asset.brandfetch.io/id4J58sqa_/idcHqihl5c.svg?updated=1674733848562" class="icon" alt="">show</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex" role="search">
+                <input class="form-control me-5 ms-2 s-bar" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="nav-links ms-auto">
+                <a class="navbar-brand nav-register" href="../index.html">Home</a>
+                <a class="navbar-brand nav-register" href="../register/register.html">Register</a>
+                <a class="navbar-brand nav-register" id="acc" href="../login-signin/account.html">signin</a>
+                <a class="navbar-brand nav-register" id="logout" href="#">logout</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+                                    
+    <!-- nav-end -->
+    <!-- updation-form -->
+
+<div class="container">
+    <div class=" text-center mt-5 ">
+        <h1 class="r-head">Update Movie</h1>
+    </div>
+    <div class="row ">
+        <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+                <div class="card-body bg-light">
+                    <div class = "container" id="u-form">
+                        
+                        <!-- <form id="contact-form asd" role="form">
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-6 u-inp">
+                                        <div class="form-group">
+                                            <label for="Movie_name">Movie Name</label>
+                                            <input  placeholder="Movie Name" id="name" value="${dt.name}" class="r-inp" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="Language">Language</label>
+                                            <input  type="text" placeholder="Language" value="${dt.lang}" id="lang" class="r-inp">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">Category</label>
+                                            <input type="email" placeholder="Category" value="${dt.cate}" id="cate" class="r-inp">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Director</label>
+                                            <input type="text" placeholder="Director" value="${dt.dir}" id="dir" class="r-inp">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="form_email">Review</label>
+                                            <input type="text" placeholder="Review" value="${dt.rev}" id="rev" class="r-inp">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Run Time</label>
+                                            <input type="text" placeholder="Run Time" value="${dt.time}" id="time" class="r-inp">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Rating</label>
+                                            <input type="text" placeholder="Rating"  value="${dt.rate}" id="rate" class="r-inp">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="file" class="r-pic" onchange="posters()" placeholder="Poster" id="poster">
+                                            <div class="u-img">
+                                                <img src="${post}" id="pic" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="file" class="r-pic" onchange="banners()" placeholder="Background" id="bg">
+                                            <div class="u-img">
+                                                <img src="${banner}" id="banner" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Discription</label>
+                                            <textarea placeholder="Type......." id="disc" class="disc-inp" cols="30" rows="10"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Update" >
+                                    </div>
+                                </div>
+                            </div>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        <!-- /.8 -->
+        </div>
+    <!-- /.row-->
+    </div>
+</div>
+
+
+    <!-- <div class="container r-body">
+        <div class="container register-body" id="u-form">
+            <form action="" id="asd">
+                <table class="r-table">
+                <tr>
+                    <td>
+                        <p>Movie name</p>
+                        <input type="text" placeholder="Movie Name" id="name" value="${dt.name}" class="r-inp">
+                    </td>
+                    <td>
+                        <p>Language</p>
+                        <input type="text" placeholder="Language" value="${dt.lang}" id="lang" class="r-inp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Category</p>
+                        <input type="text" placeholder="Category" value="${dt.cate}" id="cate" class="r-inp">
+                    </td>
+                    <td>
+                        <p>Director</p>
+                        <input type="text" placeholder="Director" value="${dt.dir}" id="dir" class="r-inp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Review</p>
+                        <input type="text" placeholder="Review" value="${dt.rev}" id="rev" class="r-inp">
+                    </td>
+                    <td>
+                        <p>Run Time</p>
+                        <input type="text" placeholder="Run Time" value="${dt.time}" id="time" class="r-inp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Discription</p>
+                        <textarea placeholder="Type......." id="disc" class="disc-inp" cols="30" rows="10"></textarea>
+                    </td>
+                    <td>
+                        <p>Rating</p>
+                        <input type="text" placeholder="Rating"  value="${dt.rate}" id="rate" class="r-inp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Poster</p>
+                        <input type="file" class="r-pic" onchange="posters()" placeholder="Poster" id="poster">
+                    <div class="u-img">
+                        <img src="${post}" id="pic" alt="">
+                    </div>
+                    </td>
+                    <td>
+                        <p>Background Poster</p>
+                        <input type="file" class="r-pic" onchange="banners()" placeholder="Background" id="bg">
+                        <div class="u-img">
+                            <img src="${banner}" id="banner" alt="">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table class="r-table">
+                <tr>
+                    <td>
+                    <input type="submit" value="Update" class="s-btn" id="sub">
+                    </td>
+                </tr>
+            </table>
+            </form>
+            
+        </div> 
+    </div> -->
+    <!-- updation-form-end -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./update.js"></script>
+    </body>
+</html>
